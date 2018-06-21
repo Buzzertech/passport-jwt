@@ -28,6 +28,7 @@ export interface StrategyOptions {
     passReqToCallback?: boolean;
     jsonWebTokenOptions?: VerifyOptions;
     custom?:boolean;
+    redisOptions?:object;
 }
 
 export interface VerifyCallback {
